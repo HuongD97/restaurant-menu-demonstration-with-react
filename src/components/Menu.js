@@ -17,7 +17,7 @@ const styles = {
         marginRight: '10%',
     },
     menuTitle: {
-        fontSize: '10vw',
+        fontSize: '5vw',
         padding: '5%',
         borderBottom: 'solid',
         fontWeight: 'bold',
