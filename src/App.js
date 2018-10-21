@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import FlexView from 'react-flexview';
 import Menu from "./components/Menu";
 
 class App extends Component {
@@ -21,7 +22,9 @@ class App extends Component {
                 imageURL: `https://image.shutterstock.com/image-photo/indian-delicious-deep-fried-breakfast-260nw-695781277.jpg`
             }];
         return (
-            <Menu dishes={dishes}/>
+            <FlexView shrink={1}>
+                <Menu dishes={dishes}/>
+            </FlexView>
         );
     }
 }
