@@ -10,12 +10,12 @@ const styles = {
         padding: '7%',
     },
     title: {
-        fontSize: '2.5vw',
+        fontSize: '3.5vw',
         fontWeight: 'bold',
         marginBottom: '5px'
     },
     description: {
-        fontSize: '2vw',
+        fontSize: '3vw',
     },
     image: {
         width: '100%',
